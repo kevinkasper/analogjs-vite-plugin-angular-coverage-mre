@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "analogjs-vite-plugin-angular-gutter-icons-mre": {
+    "analogjs-vite-plugin-angular-coverage-mre": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/analogjs-vite-plugin-angular-gutter-icons-mre",
+            "outputPath": "dist/analogjs-vite-plugin-angular-coverage-mre",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "analogjs-vite-plugin-angular-gutter-icons-mre:build:production"
+              "buildTarget": "analogjs-vite-plugin-angular-coverage-mre:build:production"
             },
             "development": {
-              "buildTarget": "analogjs-vite-plugin-angular-gutter-icons-mre:build:development"
+              "buildTarget": "analogjs-vite-plugin-angular-coverage-mre:build:development"
             }
           },
           "defaultConfiguration": "development"

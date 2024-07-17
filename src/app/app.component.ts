@@ -9,5 +9,9 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'analogjs-vite-plugin-angular-gutter-icons-mre';
+  title = 'analogjs-vite-plugin-angular-coverage-mre';
+
+  public test(): void {
+	throw new Error('Not implemented');
+  }
 }

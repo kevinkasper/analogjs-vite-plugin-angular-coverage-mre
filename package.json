@@ -33,7 +33,7 @@
 		"typescript": "~5.5.2",
 		"vitest": "^2.0.3"
 	},
-	"name": "analogjs-vite-plugin-angular-gutter-icons-mre",
+	"name": "analogjs-vite-plugin-angular-coverage-mre",
 	"private": true,
 	"scripts": {
 		"build": "ng build",
